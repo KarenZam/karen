@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+	$(window).scroll(function(){
+		if ($('body').width() < 767)
+			$('.small-device-only').show();
+		else
+			$('.small-device-only').hide();
+	})
+    
 
 /*****************************************************************************
 	PRELOADER
