@@ -76,3 +76,12 @@
 }
 
 .small-device-only { display: none; }
+
+@media screen and (max-width: 767px) {
+    #work .body-bc img { 
+        min-width: 200px;
+    }
+    .body-bc:hover .front-bc {
+        -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(-50px, -100px, 0);
+    }
+}
