@@ -1,10 +1,7 @@
 .body-bc {
-    /*background: #fafafa;*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
-    /*background-image: url('/images/wood.jpg');*/
-    /*background-image: url('/images/wood2.jpg');*/
-    background-image: url('/images/wood3.jpg');
+    background-image: url('/images/wood.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 120px 0 300px;
@@ -16,14 +13,12 @@
 }
 
 .hero-unit-bc {
-    /*margin: 50px auto;*/
     margin: 0 auto;
     width: 252px;
     height: 144px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    /*background-color: #eee;*/
     border-radius: 6px;
     padding: 0px;
 
@@ -56,7 +51,6 @@
 } 
 
 .front-bc {
-    /*-webkit-transform-origin: 100% 100% 0;*/
     -webkit-transform: rotate3d(0, 0, 0, 0deg);
     -webkit-transform: rotateX(70deg) rotateY(0deg) rotateZ(-18deg) translate3d(0, 10px, -98px);
     -webkit-transition: all 1s ease;
@@ -70,9 +64,7 @@
     position: absolute;
     top: 0;
     -webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,.6);
-    /*-webkit-transform: rotate3d(1,0,0,90deg);*/
     -webkit-transform: rotateX(70deg) rotateY(0deg) rotateZ(-28deg) translate3d(0, 10px, -105px);
-    /*-webkit-transform: rotateX(70deg) rotateY(0deg) rotateZ(-28deg) translate3d(200px, 200px, -100px);*/
     -o-transition: (all, 3s);
     -moz-transition: (all, 3s);
     -webkit-transition: (all, 3s);
