@@ -44,9 +44,7 @@
 }
 
 .front-bc {
-    position: absolute;
     top: 0;
-    z-index: 8;
     display: block;
 } 
 
@@ -55,7 +53,6 @@
     -webkit-transform: rotateX(70deg) rotateY(0deg) rotateZ(-18deg) translate3d(0, 10px, -98px);
     -webkit-transition: all 1s ease;
     -webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,.6);
-    z-index: 10;
 }
 .back-bc {
     -webkit-transition: all 1s ease;

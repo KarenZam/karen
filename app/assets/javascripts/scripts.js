@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 	$(window).scroll(function(){
+
 		if ($('body').width() < 767) {
 			if ($(window).scrollTop() > 6660) {
 				console.log("if");
@@ -19,18 +20,8 @@ $(document).ready(function () {
     			$('.to-be-moved').addClass( "front-bc" );
 			}
 		}
-	})
+	});
     
-    function tapHandler(){
-    	if ( ('to-be-moved').hasClass('front-bc') == true ) {
-    		$('.front-bc').addClass( "onclick" );
-    		$('.front-bc').removeClass( "front-bc" );
-    	} else {
-    		$('.front-bc').removeClass( "onclick" );
-    		$('.front-bc').addClass( "front-bc" );
-    	}
-    		
-  	}
 
 /*****************************************************************************
 	PRELOADER
