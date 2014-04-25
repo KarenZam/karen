@@ -1,12 +1,24 @@
 $(document).ready(function () {
 
 	$(window).scroll(function(){
-		if ($('body').width() < 767)
+		if ($('body').width() < 767) {
 			$('.small-device-only').show();
-		else
+			$('.body-bc').bind("tap",tapHandler);
+		} else {
 			$('.small-device-only').hide();
+		}
 	})
     
+    function tapHandler( event ){
+    	if ( ('to-be-moved').hasClass('front-bc') == true ) {
+    		$('.front-bc').addClass( "onclick" );
+    		$('.front-bc').removeClass( "front-bc" );
+    	} else {
+    		$('.front-bc').removeClass( "onclick" );
+    		$('.front-bc').addClass( "front-bc" );
+    	}
+    		
+  	}
 
 /*****************************************************************************
 	PRELOADER
