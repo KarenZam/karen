@@ -71,18 +71,22 @@
     -ms-transition: (all, 3s);
     transition: (all, 3s);
 }
-.body-bc:hover .front-bc {
-    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(-100px, -100px, 0);
-}
 
 .small-device-only { display: none; }
 
-.onclick { 
+.onclick {
+    -webkit-transition: all 1s ease;
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(-50px, -100px, 0);
 }
 
 @media screen and (max-width: 767px) {
     #work .body-bc img { 
         min-width: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .body-bc:hover .front-bc {
+        -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(-100px, -100px, 0);
     }
 }

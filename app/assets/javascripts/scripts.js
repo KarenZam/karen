@@ -3,13 +3,27 @@ $(document).ready(function () {
 	$(window).scroll(function(){
 		if ($('body').width() < 767) {
 			$('.small-device-only').show();
-			$('.body-bc').bind("tap",tapHandler);
+			if ($(window).scrollTop() > 6660) {
+				console.log("if");
+				if ( $('.to-be-moved').hasClass( "onclick" ) == false && $('.front-bc').hasClass( "front-bc" ) == true )
+				$('.to-be-moved').addClass( "onclick" );
+    			$('.to-be-moved').removeClass( "front-bc" );
+			} else {
+				console.log("else");
+				$('.to-be-moved').removeClass( "onclick" );
+    			$('.to-be-moved').addClass( "front-bc" );
+			}
+
 		} else {
 			$('.small-device-only').hide();
+			if ( $('.to-be-moved').hasClass( "onclick" ) == true && $('.front-bc').hasClass( "front-bc" ) == false ) {
+				$('.to-be-moved').removeClass( "onclick" );
+    			$('.to-be-moved').addClass( "front-bc" );
+			}
 		}
 	})
     
-    function tapHandler( event ){
+    function tapHandler(){
     	if ( ('to-be-moved').hasClass('front-bc') == true ) {
     		$('.front-bc').addClass( "onclick" );
     		$('.front-bc').removeClass( "front-bc" );
