@@ -72,8 +72,6 @@
     transition: (all, 3s);
 }
 
-.small-device-only { display: none; }
-
 .onclick {
     -webkit-transition: all 1s ease;
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(-50px, -100px, 0);

@@ -2,7 +2,6 @@ $(document).ready(function () {
 
 	$(window).scroll(function(){
 		if ($('body').width() < 767) {
-			$('.small-device-only').show();
 			if ($(window).scrollTop() > 6660) {
 				console.log("if");
 				if ( $('.to-be-moved').hasClass( "onclick" ) == false && $('.front-bc').hasClass( "front-bc" ) == true )
@@ -15,7 +14,6 @@ $(document).ready(function () {
 			}
 
 		} else {
-			$('.small-device-only').hide();
 			if ( $('.to-be-moved').hasClass( "onclick" ) == true && $('.front-bc').hasClass( "front-bc" ) == false ) {
 				$('.to-be-moved').removeClass( "onclick" );
     			$('.to-be-moved').addClass( "front-bc" );
