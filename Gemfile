@@ -16,6 +16,8 @@ gem 'jquery-rails'
 # Use unicorn as the app server
 gem 'unicorn'
 
+gem 'newrelic_rpm'
+
 group :production do
   gem 'rails_12factor'
 end
