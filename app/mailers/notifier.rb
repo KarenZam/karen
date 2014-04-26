@@ -4,6 +4,7 @@ class Notifier < ActionMailer::Base
   def contact(email, subject, body)
     @body = body
     @email = email
+    subject = "[Karen Farzam Admin] subject : " + subject
     mail to: "kfarzam@gmail.com", subject: subject
   end
 
