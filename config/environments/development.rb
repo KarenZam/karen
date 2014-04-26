@@ -25,12 +25,5 @@ Karenfarzam::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.action_mailer.smtp_settings = {
-    address: 'smtp.gmail.com',
-    port: 587,
-    domain: 'gmail.com',
-    user_name: 'kfarzam',
-    password: ENV["GMAIL_PASSWORD"],
-    authentication: 'plain',
-    enable_starttls_auto: true}
+  
 end
