@@ -112,18 +112,33 @@
       </div>
 
       <div class="col-sm-12 col-lg-12">
-        <h3>Featured in :</h3>
-        <div class="col-sm-6 col-lg-3">
+        <h3>
+          Featured in :
+        </h3>
+        <div class="col-sm-12 col-md-6 col-lg-6 columns">
           <a href="http://www.startupshk.com/startupshk-qa-getting-know-karen-farzam-women-code/" target="_blank">
-            <img src="/images/work/startuphk.png" class="left" alt="" style="width:70px; margin: 20px;" >
+            <div class="col-sm-6 col-md-3 col-lg-3 columns">  
+              <img src="/images/press/startuphk.png" class="left" alt="" style="height:100px; margin: 20px;" >
+            </div>
+            <div class="col-sm-6 col-md-9 col-lg-9 columns end press">
+              <img src="/images/press/201405-screenshot-startuphk.png" class="left" alt="" style="height:200px; margin: 20px;" >
+            </div>
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3 end">
-          <img src="/images/work/thelist.png" class="left" alt="" style="width:150px; margin: 20px; " >
+        <div class="col-sm-12 col-md-6 col-lg-6 columns end">
+          <div class="col-sm-3 col-md-3 col-lg-3 columns ">
+            <img src="/images/press/thelist.png" class="left" alt="" style="width:150px; margin: 20px; " >
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 columns press">
+            <%= link_to image_tag('press/201405-the-list-cover.jpg'), list_path, :target => "_blank", :style => "height: 200px; margin: 20px;" %>
+          </div>
+          <div class="col-sm-5 col-md-5 col-lg-5 columns end press">
+            <%= link_to image_tag('press/201405-the-list.jpg'), list_path, :target => "_blank", :style => "height: 200px; !important; margin: 20px;" %>
+          </div>
         </div>
       </div>
             
-      <div class="col-sm-12 col-lg-12">
+      <div class="col-sm-12 col-lg-12 columns">
         <div class="row">
           <div class="pad25"></div>
           <!--BUTTONS-->  

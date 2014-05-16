@@ -62,6 +62,12 @@ iframe { border: 0; }
 .pull-right { margin-left:10px; }
 input{ -webkit-appearance: none; }
 
+/**** PRESS ****/
+
+.press img {
+	height: 200px;
+}
+
 /**** PRELOADER ****/
 #preloader {
     position: fixed;

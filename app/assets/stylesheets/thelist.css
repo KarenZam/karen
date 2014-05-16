@@ -1,0 +1,17 @@
+.thelist h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.thelist h2 {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.thelist img {
+  min-height: 600px;
+  text-align: center;
+  margin: 40px auto !important;
+}
+
+// .thelist .container { margin: 0 auto; }
