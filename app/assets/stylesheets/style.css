@@ -68,6 +68,16 @@ input{ -webkit-appearance: none; }
 	height: 200px;
 }
 
+.featured-media img {
+	max-height: 100px;
+	max-width: 200px;
+}
+
+.featured-media ul {
+	text-align: center;
+}
+.row.featured-media ul li { list-style-type: none; display: inline-block; }
+
 /**** PRELOADER ****/
 #preloader {
     position: fixed;
