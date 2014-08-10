@@ -41,5 +41,5 @@ $('document').ready(function(){
                 columnMinWidth: 200, 
                 caption: true, 
                 lightBoxSpeedFx: 500
-                });
         });
+});
